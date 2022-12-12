@@ -21,7 +21,6 @@ import {
   Colors,
   DebugInstructions,
   Header,
-  LearnMoreLinks,
   ReloadInstructions,
 } from 'react-native/Libraries/NewAppScreen';
 
@@ -75,7 +74,8 @@ const App = () => {
             backgroundColor: isDarkMode ? Colors.black : Colors.white,
           }}>
           <Section title="Step One">
-            Edit <Text style={styles.highlight}>App.js David</Text> to change
+            Edit{' '}
+            <Text style={styles.highlight}>App.js Olubisi David Oluwatobi</Text>{' '}
             this screen and then come back to see your edits.
           </Section>
           <Section title="See Your Changes">
@@ -87,7 +87,7 @@ const App = () => {
           <Section title="Learn More">
             Welcome Read the docs to discover what to do hello david
           </Section>
-          <LearnMoreLinks />
+          {/* <LearnMoreLinks /> */}
         </View>
       </ScrollView>
     </SafeAreaView>
